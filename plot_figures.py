@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-plot_publication_figures.py
+plot_figures.py
 ===========================
-Publication-quality multi-panel summary figures for the SPICEM kidney cohort.
+Multi-panel summary figures for the SPICEM kidney cohort.
 
 Generates the following figures, compatible with Nature Methods style:
 

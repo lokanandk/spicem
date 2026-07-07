@@ -1,0 +1,67 @@
+exchange_axis,source,sink,n_metabolites,n_significant,pct_significant,combined_p,mean_cohens_d,mean_evidence,direction,direction_label,metabolites,metabolite_detail,combined_q
+C_TAL→MyoFib,C_TAL,MyoFib,1,1,100.0,0.004,-4.615,2.405,DOWN,↑ HKD,thf,"thf(d=-4.62,rDKD=0%,rHKD=100%)",0.095
+C_TAL→PT_S3,C_TAL,PT_S3,16,2,12.5,0.00453,0.619,0.546,UP,↑ DKD,10fthf5glu; 15kprostgf2; ala_B; arg_L; atp; dag_hs; glumethis; his_L; ile_L; inost; met_L; phe_L; sphs1p; thr_L; thymd; trp_L,"dag_hs(d=+1.66,rDKD=100%,rHKD=100%); arg_L(d=+1.33,rDKD=100%,rHKD=100%); met_L(d=+1.28,rDKD=67%,rHKD=20%); trp_L(d=+1.07,rDKD=33%,rHKD=0%); thymd(d=+1.05,rDKD=100%,rHKD=100%); his_L(d=+1.02,rDKD=33%,rHKD=0%); ile_L(d=+0.99,rDKD=33%,rHKD=0%); thr_L(d=+0.91,rDKD=50%,rHKD=20%); phe_L(d=+0.85,rDKD=67%,rHKD=40%); glumethis(d=+0.80,rDKD=17%,rHKD=0%); inost(d=+0.20,rDKD=83%,rHKD=100%); 15kprostgf2(d=+0.05,rDKD=50%,rHKD=40%); atp(d=+0.01,rDKD=33%,rHKD=60%); sphs1p(d=-0.19,rDKD=83%,rHKD=100%); ala_B(d=-0.23,rDKD=0%,rHKD=20%); 10fthf5glu(d=-0.90,rDKD=67%,rHKD=100%)",0.095
+VSMC/Pericyte→Dedifferentiated_Tubule,VSMC/Pericyte,Dedifferentiated_Tubule,1,1,100.0,0.006,1.734,1.236,UP,↑ DKD,duri,"duri(d=+1.73,rDKD=17%,rHKD=0%)",0.095
+Mono→GS_Stromal,Mono,GS_Stromal,1,1,100.0,0.0062,1.239,1.107,UP,↑ DKD,val_L,"val_L(d=+1.24,rDKD=17%,rHKD=0%)",0.095
+Mono→Fib,Mono,Fib,1,1,100.0,0.0072,1.63,1.182,UP,↑ DKD,34hpp,"34hpp(d=+1.63,rDKD=17%,rHKD=0%)",0.095
+Mono→Mac,Mono,Mac,2,1,50.0,0.018837,0.497,0.663,UP,↑ DKD,3mob; ocdca,"3mob(d=+1.10,rDKD=17%,rHKD=0%); ocdca(d=-0.11,rDKD=17%,rHKD=40%)",0.1707
+Fib→C_TAL,Fib,C_TAL,2,0,0.0,0.022057,0.753,0.648,UP,↑ DKD,dtdp; dtmp,"dtmp(d=+0.80,rDKD=17%,rHKD=0%); dtdp(d=+0.71,rDKD=17%,rHKD=0%)",0.1707
+C_TAL→PEC,C_TAL,PEC,2,0,0.0,0.022111,0.826,0.665,UP,↑ DKD,acald; aspasnglu,"acald(d=+0.86,rDKD=17%,rHKD=0%); aspasnglu(d=+0.79,rDKD=17%,rHKD=0%)",0.1707
+C_TAL→Plasma_Cells,C_TAL,Plasma_Cells,2,0,0.0,0.023624,0.82,0.659,UP,↑ DKD,alaarggly; asplysglu,"alaarggly(d=+0.82,rDKD=17%,rHKD=0%); asplysglu(d=+0.82,rDKD=17%,rHKD=0%)",0.1707
+PT_S1→PT_S3,PT_S1,PT_S3,5,2,40.0,0.025866,0.009,0.678,UP,↑ DKD,5dhf; akg; gln_L; lac_D; lpchol_hs,"gln_L(d=+1.45,rDKD=100%,rHKD=100%); lpchol_hs(d=+0.96,rDKD=33%,rHKD=0%); akg(d=+0.23,rDKD=100%,rHKD=100%); 5dhf(d=-1.17,rDKD=67%,rHKD=100%); lac_D(d=-1.43,rDKD=50%,rHKD=100%)",0.1707
+PC→C_TAL,PC,C_TAL,6,1,16.7,0.043912,0.082,0.393,UP,↑ DKD,Rtotal; adn; dhdascb; fe2; gdp; udp,"adn(d=+1.07,rDKD=100%,rHKD=100%); fe2(d=+0.09,rDKD=83%,rHKD=100%); udp(d=+0.06,rDKD=67%,rHKD=100%); dhdascb(d=-0.14,rDKD=83%,rHKD=100%); gdp(d=-0.29,rDKD=83%,rHKD=100%); Rtotal(d=-0.30,rDKD=83%,rHKD=100%)",0.2251
+C_TAL→Fib,C_TAL,Fib,3,0,0.0,0.047543,0.567,0.572,UP,↑ DKD,dttp; hisglu; meoh,"meoh(d=+1.07,rDKD=33%,rHKD=0%); dttp(d=+0.72,rDKD=17%,rHKD=0%); hisglu(d=-0.09,rDKD=0%,rHKD=20%)",0.2251
+Mono→C_TAL,Mono,C_TAL,1,0,0.0,0.0558,0.795,0.662,UP,↑ DKD,cholp,"cholp(d=+0.80,rDKD=17%,rHKD=0%)",0.2251
+MyoFib→C_TAL,MyoFib,C_TAL,1,0,0.0,0.0564,0.982,0.818,UP,↑ DKD,h2s,"h2s(d=+0.98,rDKD=33%,rHKD=0%)",0.2251
+DCT→C_TAL,DCT,C_TAL,1,0,0.0,0.0584,0.788,0.654,UP,↑ DKD,aspglupro,"aspglupro(d=+0.79,rDKD=17%,rHKD=0%)",0.2251
+PC→GS_Stromal,PC,GS_Stromal,1,0,0.0,0.0588,1.355,0.769,UP,↑ DKD,tyrglu,"tyrglu(d=+1.35,rDKD=0%,rHKD=0%)",0.2251
+C_TAL→IC,C_TAL,IC,1,0,0.0,0.0594,0.841,0.664,UP,↑ DKD,hisglnala,"hisglnala(d=+0.84,rDKD=17%,rHKD=0%)",0.2251
+Plasma_Cells→C_TAL,Plasma_Cells,C_TAL,1,0,0.0,0.0614,0.906,0.676,UP,↑ DKD,3mhis,"3mhis(d=+0.91,rDKD=17%,rHKD=0%)",0.2251
+PC→iPT,PC,iPT,1,0,0.0,0.0836,0.756,0.677,UP,↑ DKD,nrpphr,"nrpphr(d=+0.76,rDKD=50%,rHKD=20%)",0.2886
+Mac→Plasma_Cells,Mac,Plasma_Cells,2,0,0.0,0.087446,0.783,0.516,UP,↑ DKD,fmn; hxan,"hxan(d=+0.80,rDKD=100%,rHKD=100%); fmn(d=+0.76,rDKD=17%,rHKD=0%)",0.2886
+C_TAL→CD4T,C_TAL,CD4T,2,0,0.0,0.095823,0.742,0.498,UP,↑ DKD,orot; tyrala,"tyrala(d=+0.74,rDKD=17%,rHKD=0%); orot(d=+0.74,rDKD=100%,rHKD=100%)",0.3012
+C_TAL→PC,C_TAL,PC,6,1,16.7,0.106269,0.21,0.354,UP,↑ DKD,34dhoxpeg; ascb_L; fe3; gthrd; ura; uri,"34dhoxpeg(d=+0.99,rDKD=33%,rHKD=0%); gthrd(d=+0.36,rDKD=50%,rHKD=40%); ura(d=+0.14,rDKD=83%,rHKD=100%); fe3(d=+0.10,rDKD=83%,rHKD=100%); ascb_L(d=-0.15,rDKD=83%,rHKD=100%); uri(d=-0.18,rDKD=83%,rHKD=100%)",0.3188
+PT_S3→iPT,PT_S3,iPT,1,0,0.0,0.1298,0.057,0.33,UP,↑ DKD,leu_L,"leu_L(d=+0.06,rDKD=17%,rHKD=20%)",0.3701
+Mono→Plasma_Cells,Mono,Plasma_Cells,1,0,0.0,0.1398,0.87,0.627,UP,↑ DKD,serglyglu,"serglyglu(d=+0.87,rDKD=50%,rHKD=20%)",0.3701
+MyoFib→Plasma_Cells,MyoFib,Plasma_Cells,2,0,0.0,0.141157,-0.264,0.454,DOWN,↑ HKD,dopa; s2l2n2m2masn,"s2l2n2m2masn(d=-0.05,rDKD=0%,rHKD=20%); dopa(d=-0.48,rDKD=67%,rHKD=100%)",0.3701
+Fib→PT_S1,Fib,PT_S1,1,0,0.0,0.1458,-1.802,1.003,DOWN,↑ HKD,6thf,"6thf(d=-1.80,rDKD=50%,rHKD=100%)",0.3701
+MyoFib→Fib,MyoFib,Fib,2,1,50.0,0.154415,-1.317,0.938,DOWN,↑ HKD,5mthf; cmp,"cmp(d=-0.91,rDKD=67%,rHKD=100%); 5mthf(d=-1.73,rDKD=0%,rHKD=80%)",0.3775
+CD4T→Plasma_Cells,CD4T,Plasma_Cells,3,0,0.0,0.163477,0.24,0.482,UP,↑ DKD,cys_L; dad_2; dhnpt,"cys_L(d=+1.04,rDKD=100%,rHKD=100%); dad_2(d=+0.35,rDKD=17%,rHKD=20%); dhnpt(d=-0.68,rDKD=33%,rHKD=80%)",0.3853
+iPT→PT_S3,iPT,PT_S3,2,0,0.0,0.206618,0.346,0.544,UP,↑ DKD,creat; ncam,"ncam(d=+1.35,rDKD=0%,rHKD=0%); creat(d=-0.66,rDKD=67%,rHKD=100%)",0.4702
+GS_Stromal→C_TAL,GS_Stromal,C_TAL,3,0,0.0,0.250799,0.3,0.433,UP,↑ DKD,dgtp; prostgf2; thrglnglu,"thrglnglu(d=+1.00,rDKD=33%,rHKD=0%); prostgf2(d=+0.51,rDKD=67%,rHKD=60%); dgtp(d=-0.62,rDKD=83%,rHKD=100%)",0.5288
+VSMC/Pericyte→IC,VSMC/Pericyte,IC,1,0,0.0,0.2592,0.337,0.294,UP,↑ DKD,glnasngln,"glnasngln(d=+0.34,rDKD=17%,rHKD=20%)",0.5288
+PT_S3→Endo_Peritubular,PT_S3,Endo_Peritubular,1,0,0.0,0.2608,0.375,0.303,UP,↑ DKD,aspmetasp,"aspmetasp(d=+0.38,rDKD=17%,rHKD=20%)",0.5288
+IC→PC,IC,PC,1,0,0.0,0.2644,0.752,0.39,UP,↑ DKD,asp_L,"asp_L(d=+0.75,rDKD=100%,rHKD=100%)",0.5288
+MyoFib→PT_S3,MyoFib,PT_S3,1,0,0.0,0.2846,-0.409,0.429,DOWN,↑ HKD,gmp,"gmp(d=-0.41,rDKD=67%,rHKD=100%)",0.5438
+Podo→Endo_G,Podo,Endo_G,6,0,0.0,0.288746,0.463,0.339,UP,↑ DKD,acac; asn_L; for; gluampn; gly; lac_L,"acac(d=+1.24,rDKD=100%,rHKD=100%); gly(d=+1.02,rDKD=100%,rHKD=100%); for(d=+0.95,rDKD=100%,rHKD=100%); asn_L(d=+0.04,rDKD=83%,rHKD=100%); gluampn(d=-0.21,rDKD=100%,rHKD=100%); lac_L(d=-0.26,rDKD=100%,rHKD=100%)",0.5438
+CD4T→Mes,CD4T,Mes,1,0,0.0,0.2966,-0.136,0.32,DOWN,↑ HKD,tag_hs,"tag_hs(d=-0.14,rDKD=33%,rHKD=60%)",0.5438
+PT_S2→PT_S1,PT_S2,PT_S1,3,0,0.0,0.309987,0.4,0.389,UP,↑ DKD,cgly; glyc; tyr_L,"tyr_L(d=+1.00,rDKD=100%,rHKD=100%); cgly(d=+0.85,rDKD=100%,rHKD=100%); glyc(d=-0.65,rDKD=100%,rHKD=100%)",0.5529
+PT_S2→Podo,PT_S2,Podo,1,0,0.0,0.356,-1.403,0.902,DOWN,↑ HKD,fol,"fol(d=-1.40,rDKD=0%,rHKD=60%)",0.6183
+PT_S1→CNT,PT_S1,CNT,2,0,0.0,0.37494,-0.267,0.29,DOWN,↑ HKD,gsn; malt,"gsn(d=-0.23,rDKD=83%,rHKD=100%); malt(d=-0.30,rDKD=33%,rHKD=60%)",0.6345
+Fib→Plasma_Cells,Fib,Plasma_Cells,3,0,0.0,0.390193,-0.317,0.428,DOWN,↑ HKD,cytd; dgsn; lys_L,"dgsn(d=+0.41,rDKD=17%,rHKD=20%); lys_L(d=-0.49,rDKD=17%,rHKD=60%); cytd(d=-0.88,rDKD=67%,rHKD=100%)",0.6438
+Mes→VSMC/Pericyte,Mes,VSMC/Pericyte,2,0,0.0,0.422879,0.442,0.324,UP,↑ DKD,ade; thym,"thym(d=+1.10,rDKD=100%,rHKD=100%); ade(d=-0.21,rDKD=83%,rHKD=100%)",0.6807
+Fib→Podo,Fib,Podo,1,0,0.0,0.445,-0.39,0.336,DOWN,↑ HKD,man,"man(d=-0.39,rDKD=0%,rHKD=20%)",0.6822
+GS_Stromal→Fib,GS_Stromal,Fib,1,0,0.0,0.4536,0.005,0.237,UP,↑ DKD,hisglugln,"hisglugln(d=+0.01,rDKD=0%,rHKD=20%)",0.6822
+CNT→PT_S3,CNT,PT_S3,1,0,0.0,0.4548,-1.536,0.764,DOWN,↑ HKD,6dhf,"6dhf(d=-1.54,rDKD=50%,rHKD=100%)",0.6822
+PT_S1→Endo_G,PT_S1,Endo_G,1,0,0.0,0.466,-0.747,0.563,DOWN,↑ HKD,chsterol,"chsterol(d=-0.75,rDKD=50%,rHKD=100%)",0.6835
+Endo_G→Fib,Endo_G,Fib,2,0,0.0,0.486056,-0.214,0.341,DOWN,↑ HKD,4hpro_LT; ump,"4hpro_LT(d=+0.34,rDKD=17%,rHKD=20%); ump(d=-0.77,rDKD=67%,rHKD=100%)",0.6974
+Endo_G→Podo,Endo_G,Podo,5,1,20.0,0.512335,0.25,0.295,UP,↑ DKD,cit; cyala; glu_L; gua; hco3,"hco3(d=+1.64,rDKD=100%,rHKD=100%); cit(d=+0.48,rDKD=100%,rHKD=100%); gua(d=-0.23,rDKD=83%,rHKD=100%); cyala(d=-0.28,rDKD=100%,rHKD=100%); glu_L(d=-0.36,rDKD=100%,rHKD=100%)",0.7193
+M_TAL→C_TAL,M_TAL,C_TAL,1,0,0.0,0.533,0.722,0.276,UP,↑ DKD,2hb,"2hb(d=+0.72,rDKD=100%,rHKD=100%)",0.7193
+Plasma_Cells→CD4T,Plasma_Cells,CD4T,1,0,0.0,0.545,-0.686,0.488,DOWN,↑ HKD,ahdt,"ahdt(d=-0.69,rDKD=33%,rHKD=80%)",0.7193
+PEC→Mes,PEC,Mes,1,0,0.0,0.5518,-0.429,0.198,DOWN,↑ HKD,glc_D,"glc_D(d=-0.43,rDKD=100%,rHKD=100%)",0.7193
+PT_S3→VSMC/Pericyte,PT_S3,VSMC/Pericyte,1,0,0.0,0.5558,-0.477,0.344,DOWN,↑ HKD,bhb,"bhb(d=-0.48,rDKD=67%,rHKD=100%)",0.7193
+PT_S3→C_TAL,PT_S3,C_TAL,5,0,0.0,0.600672,0.033,0.294,UP,↑ DKD,ac; amp; ctp; pi; retn,"retn(d=+0.71,rDKD=17%,rHKD=0%); pi(d=+0.42,rDKD=100%,rHKD=100%); ac(d=+0.27,rDKD=100%,rHKD=100%); amp(d=-0.29,rDKD=83%,rHKD=100%); ctp(d=-0.94,rDKD=67%,rHKD=100%)",0.7612
+C_TAL→iPT,C_TAL,iPT,5,0,0.0,0.611264,-0.458,0.37,DOWN,↑ HKD,5thf; cdp; chol; ptrc; ser_D,"chol(d=+0.25,rDKD=67%,rHKD=100%); ser_D(d=-0.21,rDKD=33%,rHKD=40%); ptrc(d=-0.41,rDKD=0%,rHKD=20%); 5thf(d=-0.93,rDKD=67%,rHKD=100%); cdp(d=-0.99,rDKD=67%,rHKD=100%)",0.7612
+Plasma_Cells→Fib,Plasma_Cells,Fib,1,0,0.0,0.6366,0.211,0.121,UP,↑ DKD,aspglu,"aspglu(d=+0.21,rDKD=100%,rHKD=100%)",0.7781
+Fib→MyoFib,Fib,MyoFib,2,0,0.0,0.654404,-0.32,0.42,DOWN,↑ HKD,10fthf6glu; pro_L,"pro_L(d=+0.51,rDKD=67%,rHKD=40%); 10fthf6glu(d=-1.15,rDKD=67%,rHKD=100%)",0.7853
+VSMC/Pericyte→C_TAL,VSMC/Pericyte,C_TAL,1,0,0.0,0.7358,-0.108,0.099,DOWN,↑ HKD,ins,"ins(d=-0.11,rDKD=83%,rHKD=100%)",0.8586
+PT_S1→PT_S2,PT_S1,PT_S2,4,0,0.0,0.741516,-0.115,0.227,DOWN,↑ HKD,ala_L; gluglu; pyr; ser_L,"ser_L(d=+0.56,rDKD=100%,rHKD=100%); gluglu(d=+0.24,rDKD=100%,rHKD=100%); ala_L(d=-0.60,rDKD=100%,rHKD=100%); pyr(d=-0.66,rDKD=100%,rHKD=100%)",0.8586
+Fib→CD4T,Fib,CD4T,1,0,0.0,0.7566,0.33,0.125,UP,↑ DKD,mag_hs,"mag_hs(d=+0.33,rDKD=100%,rHKD=100%)",0.861
+C_TAL→PT_S2,C_TAL,PT_S2,1,0,0.0,0.782,1.155,0.72,UP,↑ DKD,mal_L,"mal_L(d=+1.16,rDKD=100%,rHKD=40%)",0.867
+PT_S3→IC,PT_S3,IC,1,0,0.0,0.7882,-1.388,0.643,DOWN,↑ HKD,gluala,"gluala(d=-1.39,rDKD=50%,rHKD=100%)",0.867
+CNT→IC,CNT,IC,1,0,0.0,0.9676,-0.917,0.479,DOWN,↑ HKD,o2s,"o2s(d=-0.92,rDKD=0%,rHKD=40%)",1.0
+PEC→IC,PEC,IC,1,0,0.0,0.97,0.076,0.024,UP,↑ DKD,glucyala,"glucyala(d=+0.08,rDKD=100%,rHKD=100%)",1.0
+iPT→PT_S1,iPT,PT_S1,2,0,0.0,0.982809,-0.008,0.036,DOWN,↑ HKD,4abut; nh4,"nh4(d=+0.08,rDKD=100%,rHKD=100%); 4abut(d=-0.09,rDKD=100%,rHKD=100%)",1.0
+iPT→C_TAL,iPT,C_TAL,3,0,0.0,0.997651,-0.483,0.213,DOWN,↑ HKD,ala_D; orn; succ,"succ(d=-0.29,rDKD=100%,rHKD=100%); orn(d=-0.40,rDKD=33%,rHKD=60%); ala_D(d=-0.76,rDKD=67%,rHKD=100%)",1.0
+C_TAL→GS_Stromal,C_TAL,GS_Stromal,5,0,0.0,0.99891,-0.044,0.162,DOWN,↑ HKD,dgmp; gthox; hdca; ppi; prostge2,"hdca(d=+0.34,rDKD=100%,rHKD=100%); gthox(d=+0.34,rDKD=100%,rHKD=100%); prostge2(d=+0.30,rDKD=17%,rHKD=40%); ppi(d=-0.60,rDKD=83%,rHKD=100%); dgmp(d=-0.61,rDKD=83%,rHKD=100%)",1.0
+Mono→CD4T,Mono,CD4T,1,0,0.0,1.0,-1.116,0.539,DOWN,↑ HKD,ttdca,"ttdca(d=-1.12,rDKD=50%,rHKD=100%)",1.0

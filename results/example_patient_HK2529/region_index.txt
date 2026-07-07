@@ -1,0 +1,228 @@
+================================================================================
+REGION INDEX — SPICEM STREAMLINE PLOT REGISTRY
+================================================================================
+
+COLOUR CONVENTION (confirmed by code, see plot_streamline_panel):
+  RED   dots  = Source cell type ONLY  (filtered: cell_type == src_type)
+  BLUE  dots  = Sink cell type ONLY    (filtered: cell_type == snk_type)
+  GREY  dots  = All other cells in the region (background)
+  No red/blue dot of any other cell type is ever plotted.
+
+Total regions: 1
+Conditions:    Sample_DKD
+
+────────────────────────────────────────────────────────────────────────────────
+KEY        : Sample_DKD_R1
+Condition  : DKD
+Region     : 1
+Cells      : 2,970
+X range    : [1535.0, 9370.0]
+Y range    : [1104.0, 8983.0]
+Cell types (24):
+    CD4T                                      n = 148
+    CNT                                       n = 39
+    C_TAL                                     n = 787
+    DCT                                       n = 21
+    Dedifferentiated_Tubule                   n = 4
+    Endo_G                                    n = 11
+    Endo_Lym                                  n = 1
+    Endo_Peritubular                          n = 39
+    Fib                                       n = 260
+    GS_Stromal                                n = 209
+    IC                                        n = 112
+    Mac                                       n = 26
+    Mes                                       n = 56
+    Mono                                      n = 177
+    MyoFib                                    n = 38
+    PC                                        n = 119
+    PEC                                       n = 70
+    PT_S1                                     n = 117
+    PT_S2                                     n = 9
+    PT_S3                                     n = 211
+    Plasma_Cells                              n = 221
+    Podo                                      n = 94
+    VSMC/Pericyte                             n = 40
+    iPT                                       n = 161
+Metabolites with streamline fields (81):
+    15kprostgf2           Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    2hb                   Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    34dhoxpeg             Source: C_TAL                          n= 787 ✓
+                          Sink  : PC                             n= 119 ✓
+    4abut                 Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    4nph                  Source: PC                             n= 119 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    Rtotal                Source: GS_Stromal                     n= 209 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    ac                    Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    acac                  Source: Fib                            n= 260 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    adn                   Source: Podo                           n=  94 ✓
+                          Sink  : GS_Stromal                     n= 209 ✓
+    akg                   Source: PT_S1                          n= 117 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    ala_D                 Source: Mono                           n= 177 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    ala_L                 Source: PT_S1                          n= 117 ✓
+                          Sink  : PT_S2                          n=   9 ✓
+    amp                   Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    arg_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    asn_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    asp_L                 Source: IC                             n= 112 ✓
+                          Sink  : PC                             n= 119 ✓
+    aspasnglu             Source: C_TAL                          n= 787 ✓
+                          Sink  : PEC                            n=  70 ✓
+    aspglu                Source: Plasma_Cells                   n= 221 ✓
+                          Sink  : Fib                            n= 260 ✓
+    asplysglu             Source: C_TAL                          n= 787 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    atp                   Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    cgly                  Source: Plasma_Cells                   n= 221 ✓
+                          Sink  : CD4T                           n= 148 ✓
+    chol                  Source: C_TAL                          n= 787 ✓
+                          Sink  : iPT                            n= 161 ✓
+    cholp                 Source: Mono                           n= 177 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    cit                   Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    cyala                 Source: PT_S1                          n= 117 ✓
+                          Sink  : CNT                            n=  39 ✓
+    cys_L                 Source: CD4T                           n= 148 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    dag_hs                Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    dgmp                  Source: PC                             n= 119 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    dgtp                  Source: C_TAL                          n= 787 ✓
+                          Sink  : PC                             n= 119 ✓
+    dtdp                  Source: Fib                            n= 260 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    dtmp                  Source: Fib                            n= 260 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    dttp                  Source: C_TAL                          n= 787 ✓
+                          Sink  : Fib                            n= 260 ✓
+    for                   Source: C_TAL                          n= 787 ✓
+                          Sink  : Endo_Peritubular               n=  39 ✓
+    gal                   Source: PT_S1                          n= 117 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    glc_D                 Source: DCT                            n=  21 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    gln_L                 Source: PT_S1                          n= 117 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    glu_L                 Source: PT_S1                          n= 117 ✓
+                          Sink  : CNT                            n=  39 ✓
+    gluampn               Source: CNT                            n=  39 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    glucyala              Source: PEC                            n=  70 ✓
+                          Sink  : IC                             n= 112 ✓
+    gluglu                Source: PT_S3                          n= 211 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    gly                   Source: PT_S2                          n=   9 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    glyc                  Source: Podo                           n=  94 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    gthox                 Source: C_TAL                          n= 787 ✓
+                          Sink  : GS_Stromal                     n= 209 ✓
+    gthrd                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PC                             n= 119 ✓
+    hco3                  Source: PT_S3                          n= 211 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    hdca                  Source: C_TAL                          n= 787 ✓
+                          Sink  : GS_Stromal                     n= 209 ✓
+    his_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    hisglnala             Source: C_TAL                          n= 787 ✓
+                          Sink  : IC                             n= 112 ✓
+    hxan                  Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    ile_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    inost                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    lac_L                 Source: PEC                            n=  70 ✓
+                          Sink  : GS_Stromal                     n= 209 ✓
+    lcts                  Source: C_TAL                          n= 787 ✓
+                          Sink  : PC                             n= 119 ✓
+    lcts6p                Source: PC                             n= 119 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    lys_L                 Source: Fib                            n= 260 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    mag_hs                Source: Fib                            n= 260 ✓
+                          Sink  : CD4T                           n= 148 ✓
+    mal_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S2                          n=   9 ✓
+    meoh                  Source: C_TAL                          n= 787 ✓
+                          Sink  : Fib                            n= 260 ✓
+    met_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    nh4                   Source: iPT                            n= 161 ✓
+                          Sink  : PT_S1                          n= 117 ✓
+    npphos                Source: C_TAL                          n= 787 ✓
+                          Sink  : PC                             n= 119 ✓
+    orot                  Source: C_TAL                          n= 787 ✓
+                          Sink  : CD4T                           n= 148 ✓
+    phe_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    pi                    Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    ppi                   Source: PC                             n= 119 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    prostge2              Source: C_TAL                          n= 787 ✓
+                          Sink  : GS_Stromal                     n= 209 ✓
+    prostgf2              Source: GS_Stromal                     n= 209 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    pyr                   Source: CD4T                           n= 148 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    retn                  Source: PT_S3                          n= 211 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    ser_D                 Source: C_TAL                          n= 787 ✓
+                          Sink  : iPT                            n= 161 ✓
+    ser_L                 Source: PT_S1                          n= 117 ✓
+                          Sink  : PT_S2                          n=   9 ✓
+    serglyglu             Source: Mono                           n= 177 ✓
+                          Sink  : Plasma_Cells                   n= 221 ✓
+    sphs1p                Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    succ                  Source: iPT                            n= 161 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    thr_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    thrglnglu             Source: GS_Stromal                     n= 209 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    thym                  Source: Endo_Peritubular               n=  39 ✓
+                          Sink  : C_TAL                          n= 787 ✓
+    thymd                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    trp_L                 Source: C_TAL                          n= 787 ✓
+                          Sink  : PT_S3                          n= 211 ✓
+    tyr_L                 Source: PC                             n= 119 ✓
+                          Sink  : IC                             n= 112 ✓
+    tyrala                Source: C_TAL                          n= 787 ✓
+                          Sink  : CD4T                           n= 148 ✓
+
+================================================================================
+SCATTER FILTER AUDIT
+================================================================================
+
+The following code in plot_streamline_panel guarantees colour purity:
+
+  # Source (RED) scatter:
+  sub = meta_df[meta_df['cell_type'].astype(str) == str(src_type)]
+  ax.scatter(sub['px_x'], sub['px_y'], color=cfg.source_color, ...)
+
+  # Sink (BLUE) scatter:
+  sub = meta_df[meta_df['cell_type'].astype(str) == str(snk_type)]
+  ax.scatter(sub['px_x'], sub['px_y'], color=cfg.sink_color, ...)
+
+Conclusion: every red dot is exactly src_type, every blue dot is exactly
+snk_type. No cell of any other type is ever coloured red or blue.
+
+================================================================================
+END OF REGION INDEX

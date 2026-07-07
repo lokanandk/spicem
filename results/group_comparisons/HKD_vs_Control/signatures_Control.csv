@@ -1,0 +1,6 @@
+metabolite,source,sink,exchange_axis,mean_raw_HKD,mean_raw_Control,mean_rank_HKD,mean_rank_Control,detected_HKD,detected_Control,rate_HKD,rate_Control,log2fc,perm_p,fisher_p,fisher_or,wilcox_r,cohens_d,perm_q,fisher_q,evidence_score,sig_perm,sig_fisher,significant,sig_fdr,signature_HKD,signature_Control,effect_size_label
+lpchol_hs,PT_S1,PT_S3,PT_S1→PT_S3,0.0,322.16,0.1779,0.4943,0,2,0.0,0.667,-28.263,0.03,0.10714285714285714,0.055,1.0,-2.365,0.4984,1.0,1.467,True,False,True,False,False,True,large
+thr_L,C_TAL,PT_S3,C_TAL→PT_S3,12.81,58.02,0.2248,0.4816,1,2,0.2,0.667,-2.179,0.2454,0.46428571428571436,0.2,0.6,-1.528,0.5996,1.0,0.749,False,False,False,False,False,True,large
+phe_L,C_TAL,PT_S3,C_TAL→PT_S3,10.28,42.96,0.2752,0.4701,2,2,0.4,0.667,-2.063,0.3398,1.0,0.429,1.0,-1.081,0.6843,1.0,0.474,False,False,False,False,False,True,large
+mal_L,C_TAL,PT_S2,C_TAL→PT_S2,993.08,400.08,0.3179,0.5414,2,2,0.4,0.667,1.312,0.6592,1.0,0.429,0.5,-0.854,0.8288,1.0,0.317,False,False,False,False,False,True,large
+15kprostgf2,C_TAL,PT_S3,C_TAL→PT_S3,9548.99,220.1,0.3738,0.4701,2,2,0.4,0.667,5.439,1.0,1.0,0.429,0.0,-0.362,1.0,1.0,0.131,False,False,False,False,False,True,small

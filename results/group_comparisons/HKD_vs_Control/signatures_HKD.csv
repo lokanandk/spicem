@@ -1,0 +1,16 @@
+metabolite,source,sink,exchange_axis,mean_raw_HKD,mean_raw_Control,mean_rank_HKD,mean_rank_Control,detected_HKD,detected_Control,rate_HKD,rate_Control,log2fc,perm_p,fisher_p,fisher_or,wilcox_r,cohens_d,perm_q,fisher_q,evidence_score,sig_perm,sig_fisher,significant,sig_fdr,signature_HKD,signature_Control,effect_size_label
+gmp,MyoFib,PT_S3,MyoFib→PT_S3,2778.52,520.64,0.6317,0.3575,5,1,1.0,0.333,2.416,0.0344,0.10714285714285714,18.333,-1.0,2.433,0.4984,1.0,1.463,True,False,True,False,True,False,large
+ttdca,Mono,CD4T,Mono→CD4T,254.27,82.31,0.4841,0.3184,5,1,1.0,0.333,1.627,0.055,0.10714285714285714,18.333,-0.933,2.361,0.4984,1.0,1.374,False,False,False,False,True,False,large
+6thf,Fib,PT_S1,Fib→PT_S1,7399.87,4600.23,0.6938,0.4103,5,1,1.0,0.333,0.686,0.1552,0.10714285714285714,18.333,-0.667,1.605,0.5115,1.0,1.027,False,False,False,False,True,False,large
+6dhf,CNT,PT_S3,CNT→PT_S3,15836.94,10597.5,0.749,0.4333,5,1,1.0,0.333,0.58,0.3258,0.10714285714285714,18.333,-0.467,1.712,0.6674,1.0,0.941,False,False,False,False,True,False,large
+thf,C_TAL,MyoFib,C_TAL→MyoFib,5695.53,1534.16,0.6138,0.3828,5,1,1.0,0.333,1.892,0.2846,0.10714285714285714,18.333,-0.533,1.401,0.6448,1.0,0.884,False,False,False,False,True,False,large
+5mthf,MyoFib,Fib,MyoFib→Fib,5.77,0.0,0.3407,0.2299,4,0,0.8,0.0,22.46,0.2208,0.14285714285714288,21.0,-0.6,1.246,0.5996,1.0,0.872,False,False,False,False,True,False,large
+dopa,MyoFib,Plasma_Cells,MyoFib→Plasma_Cells,16000.21,35540.51,0.76,0.4632,5,1,1.0,0.333,-1.151,0.5714,0.10714285714285714,18.333,-0.333,1.387,0.7795,1.0,0.774,False,False,False,False,True,False,large
+10fthf6glu,Fib,MyoFib,Fib→MyoFib,20687.76,79599.52,0.771,0.4885,5,1,1.0,0.333,-1.944,0.5058,0.10714285714285714,18.333,-0.333,1.153,0.7795,1.0,0.734,False,False,False,False,True,False,large
+ahdt,Plasma_Cells,CD4T,Plasma_Cells→CD4T,7028.33,195.27,0.5883,0.3379,4,1,0.8,0.333,5.17,0.2482,0.4642857142857142,5.0,-0.6,1.184,0.5996,1.0,0.661,False,False,False,False,True,False,large
+dhnpt,CD4T,Plasma_Cells,CD4T→Plasma_Cells,7028.33,195.27,0.5869,0.3379,4,1,0.8,0.333,5.17,0.2514,0.4642857142857142,5.0,-0.6,1.174,0.5996,1.0,0.657,False,False,False,False,True,False,large
+cytd,Fib,Plasma_Cells,Fib→Plasma_Cells,3025.56,6968.85,0.5628,0.4218,5,1,1.0,0.333,-1.204,0.5656,0.10714285714285714,18.333,-0.333,0.745,0.7795,1.0,0.615,False,False,False,False,True,False,medium
+lys_L,Fib,Plasma_Cells,Fib→Plasma_Cells,252.84,0.0,0.3766,0.2299,3,0,0.6,0.0,27.914,0.5644,0.19642857142857145,9.8,-0.333,0.99,0.7795,1.0,0.601,False,False,False,False,True,False,large
+atp,C_TAL,PT_S3,C_TAL→PT_S3,465.14,0.0,0.3917,0.2299,3,0,0.6,0.0,28.793,0.5708,0.19642857142857145,9.8,-0.333,0.974,0.7795,1.0,0.595,False,False,False,False,True,False,large
+fol,PT_S2,Podo,PT_S2→Podo,492.81,8.11,0.3993,0.3023,3,1,0.6,0.333,5.924,0.7024,1.0,2.333,-0.2,0.579,0.8705,1.0,0.238,False,False,False,False,True,False,medium
+malt,PT_S1,CNT,PT_S1→CNT,2259.09,810.67,0.4366,0.3644,3,1,0.6,0.333,1.479,1.0,1.0,2.333,0.067,0.321,1.0,1.0,0.12,False,False,False,False,True,False,small

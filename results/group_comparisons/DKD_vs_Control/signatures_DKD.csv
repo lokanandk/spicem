@@ -1,0 +1,12 @@
+metabolite,source,sink,exchange_axis,mean_raw_DKD,mean_raw_Control,mean_rank_DKD,mean_rank_Control,detected_DKD,detected_Control,rate_DKD,rate_Control,log2fc,perm_p,fisher_p,fisher_or,wilcox_r,cohens_d,perm_q,fisher_q,evidence_score,sig_perm,sig_fisher,significant,sig_fdr,signature_DKD,signature_Control,effect_size_label
+pro_L,Fib,MyoFib,Fib→MyoFib,3111.14,0.0,0.5339,0.2299,4,0,0.667,0.0,31.535,0.265,0.16666666666666669,12.6,-0.556,1.503,1.0,1.0,0.872,False,False,False,False,True,False,large
+gthrd,C_TAL,PC,C_TAL→PC,382.72,0.0,0.4253,0.2299,3,0,0.5,0.0,28.512,0.5584,0.46428571428571436,7.0,-0.333,0.889,1.0,1.0,0.469,False,False,False,False,True,False,large
+gmp,MyoFib,PT_S3,MyoFib→PT_S3,6706.2,520.64,0.5506,0.3575,4,1,0.667,0.333,3.687,0.5446,0.5238095238095237,3.0,-0.333,0.799,1.0,1.0,0.412,False,False,False,False,True,False,medium
+dopa,MyoFib,Plasma_Cells,MyoFib→Plasma_Cells,39627.65,35540.51,0.6443,0.4632,4,1,0.667,0.333,0.157,1.0,0.5238095238095237,3.0,0.0,0.542,1.0,1.0,0.256,False,False,False,False,True,False,medium
+met_L,C_TAL,PT_S3,C_TAL→PT_S3,13.33,8.48,0.4253,0.346,4,1,0.667,0.333,0.652,0.9046,0.5238095238095237,3.0,-0.111,0.388,1.0,1.0,0.233,False,False,False,False,True,False,small
+nrpphr,PC,iPT,PC→iPT,1611.33,69.43,0.427,0.3138,3,1,0.5,0.333,4.537,0.9058,1.0,1.667,-0.111,0.609,1.0,1.0,0.192,False,False,False,False,True,False,medium
+10fthf6glu,Fib,MyoFib,Fib→MyoFib,6782.61,79599.52,0.542,0.4885,4,1,0.667,0.333,-3.553,0.9074,0.5238095238095237,3.0,0.111,0.174,1.0,1.0,0.179,False,False,False,False,True,False,negligible
+cytd,Fib,Plasma_Cells,Fib→Plasma_Cells,1482.25,6968.85,0.4391,0.4218,4,1,0.667,0.333,-2.233,1.0,0.5238095238095237,3.0,0.0,0.083,1.0,1.0,0.141,False,False,False,False,True,False,negligible
+6dhf,CNT,PT_S3,CNT→PT_S3,6100.5,10597.5,0.4529,0.4333,3,1,0.5,0.333,-0.797,0.5338,1.0,1.667,0.333,0.072,1.0,1.0,0.138,False,False,False,False,True,False,negligible
+ttdca,Mono,CD4T,Mono→CD4T,159.08,82.31,0.3615,0.3184,3,1,0.5,0.333,0.951,1.0,1.0,1.667,0.0,0.316,1.0,1.0,0.104,False,False,False,False,True,False,small
+serglyglu,Mono,Plasma_Cells,Mono→Plasma_Cells,1470.83,30.84,0.4305,0.3655,3,1,0.5,0.333,5.576,0.9024,1.0,1.667,-0.111,0.232,1.0,1.0,0.099,False,False,False,False,True,False,small

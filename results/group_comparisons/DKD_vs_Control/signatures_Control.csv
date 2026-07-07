@@ -1,0 +1,3 @@
+metabolite,source,sink,exchange_axis,mean_raw_DKD,mean_raw_Control,mean_rank_DKD,mean_rank_Control,detected_DKD,detected_Control,rate_DKD,rate_Control,log2fc,perm_p,fisher_p,fisher_or,wilcox_r,cohens_d,perm_q,fisher_q,evidence_score,sig_perm,sig_fisher,significant,sig_fdr,signature_DKD,signature_Control,effect_size_label
+orn,iPT,C_TAL,iPT→C_TAL,144.35,128.19,0.3115,0.4184,2,2,0.333,0.667,0.171,1.0,0.5238095238095238,0.333,0.0,-0.786,1.0,1.0,0.317,False,False,False,False,False,True,medium
+lpchol_hs,PT_S1,PT_S3,PT_S1→PT_S3,557.18,322.16,0.3839,0.4943,2,2,0.333,0.667,0.79,1.0,0.5238095238095238,0.333,0.0,-0.404,1.0,1.0,0.221,False,False,False,False,False,True,small

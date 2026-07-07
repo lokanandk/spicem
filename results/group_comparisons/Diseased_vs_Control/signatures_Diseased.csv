@@ -1,0 +1,11 @@
+metabolite,source,sink,exchange_axis,mean_raw_Diseased,mean_raw_Control,mean_rank_Diseased,mean_rank_Control,detected_Diseased,detected_Control,rate_Diseased,rate_Control,log2fc,perm_p,fisher_p,fisher_or,wilcox_r,cohens_d,perm_q,fisher_q,evidence_score,sig_perm,sig_fisher,significant,sig_fdr,signature_Diseased,signature_Control,effect_size_label
+gmp,MyoFib,PT_S3,MyoFib→PT_S3,4920.89,520.64,0.5875,0.3575,9,1,0.818,0.333,3.241,0.127,0.17582417582417578,6.333,-0.636,1.204,0.8948,1.0,0.876,False,False,False,False,True,False,large
+pro_L,Fib,MyoFib,Fib→MyoFib,4254.69,0.0,0.4715,0.2299,6,0,0.545,0.0,31.986,0.5332,0.20879120879120877,8.273,-0.273,1.003,0.8948,1.0,0.598,False,False,False,False,True,False,large
+dopa,MyoFib,Plasma_Cells,MyoFib→Plasma_Cells,28887.9,35540.51,0.6969,0.4632,9,1,0.818,0.333,-0.299,0.7542,0.17582417582417578,6.333,-0.152,0.889,0.9509,1.0,0.527,False,False,False,False,True,False,large
+ttdca,Mono,CD4T,Mono→CD4T,202.34,82.31,0.4172,0.3184,8,1,0.727,0.333,1.298,0.3132,0.5054945054945055,4.048,-0.424,0.818,0.8948,1.0,0.514,False,False,False,False,True,False,large
+10fthf6glu,Fib,MyoFib,Fib→MyoFib,13103.13,79599.52,0.6461,0.4885,9,1,0.818,0.333,-2.603,0.8588,0.17582417582417578,6.333,-0.091,0.599,0.9737,1.0,0.434,False,False,False,False,True,False,medium
+cytd,Fib,Plasma_Cells,Fib→Plasma_Cells,2183.76,6968.85,0.4953,0.4218,9,1,0.818,0.333,-1.674,0.7724,0.17582417582417578,6.333,-0.152,0.407,0.9509,1.0,0.402,False,False,False,False,True,False,small
+6thf,Fib,PT_S1,Fib→PT_S1,4275.89,4600.23,0.5364,0.4103,8,1,0.727,0.333,-0.105,0.6698,0.5054945054945055,4.048,-0.182,0.561,0.9077,1.0,0.334,False,False,False,False,True,False,medium
+6dhf,CNT,PT_S3,CNT→PT_S3,10526.15,10597.5,0.5875,0.4333,8,1,0.727,0.333,-0.01,0.9738,0.5054945054945055,4.048,-0.03,0.609,1.0,1.0,0.289,False,False,False,False,True,False,medium
+ahdt,Plasma_Cells,CD4T,Plasma_Cells→CD4T,8701.45,195.27,0.4906,0.3379,6,1,0.545,0.333,5.478,0.7684,1.0,1.97,-0.152,0.614,0.9509,1.0,0.225,False,False,False,False,True,False,medium
+dhnpt,CD4T,Plasma_Cells,CD4T→Plasma_Cells,8701.45,195.27,0.49,0.3379,6,1,0.545,0.333,5.478,0.7734,1.0,1.97,-0.152,0.611,0.9509,1.0,0.224,False,False,False,False,True,False,medium

@@ -10,8 +10,6 @@ Layout matches the preferred "simpler_version.png":
   Row 1 (med):   donut×3 | detection strip
   Row 2 (slim):  clinical correlation strip
 
-NO streamline panels here — those go in merged_plots/ (see merged_streamline_plots.py).
-NO WCEG panels here — WCEG is used internally for ranking and comparison only.
 
 Output folders
 --------------

@@ -59,5 +59,5 @@ publication.
 
 ## Contact
 
-Developed by a Senior Scientist at the Genome Institute of Singapore (GIS),
+Lokanand Koduru, Senior Scientist at the Genome Institute of Singapore (GIS),
 Agency for Science, Technology and Research (A*STAR).

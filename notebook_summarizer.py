@@ -4,7 +4,7 @@
 # This notebook creates comprehensive summaries of your analysis results:
 # - CSV files with metabolite statistics
 # - Text reports with key findings
-# - Plot inventories
+# - Plot inventories.
 # 
 # Run this AFTER you've completed your analysis and generated plots
 
